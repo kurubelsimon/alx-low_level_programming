@@ -11,8 +11,6 @@ if (c >=48 && c <= 57)
 return (1);
 }
 else{
-[A[C[C[C[C[
-{
 return (0);
 }
 }
