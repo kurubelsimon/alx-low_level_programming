@@ -1,13 +1,20 @@
 #include "main.h"
 /**
-*main - Check the code 
+*print _most _numbets - print numbers 
 *
-* Return : always 0/
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[.[1~
+*Return : always 0.
 */
-int main(void)
+void print_most_numbers(void)
 {
-	print_most_numbers()l
-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[;
-	return (0);
+int i;
+i=0;
+while (i < 10)
+{
+if (i !=2 && i !=4)
+{
+_putchar(i+ '0');
+}
+i++;
+}
+_putchar('\n');
 }
